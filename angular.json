@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "ChatWithFirebase"
+    }
+  },
+  "defaultProject": "ChatWithFirebase",
+  "cli": {
+    "analytics": false
+  }
 }
