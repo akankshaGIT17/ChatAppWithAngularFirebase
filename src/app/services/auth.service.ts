@@ -28,7 +28,6 @@ export class AuthService {
     }
 
     login(email: string, password: string) {
-      debugger
       return this.afAuth.signInWithEmailAndPassword(email, password)
         .then((user) => {
           console.log(user);
@@ -53,7 +52,6 @@ export class AuthService {
     }
 
     setUserData(email: string, displayName: string, status: string): void {
-      debugger;
       const path = `users/${this.currentUserId}`;
       const data = {
        

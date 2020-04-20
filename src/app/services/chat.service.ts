@@ -28,7 +28,6 @@ export class ChatService {
           }
 
           this.getUser().valueChanges().subscribe(a => {
-            debugger
             var data = a as User;
             this.userName = data.displayName;
           });
